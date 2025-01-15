@@ -38,7 +38,6 @@ const Login = () => {
         const {token}  = response.data;
         localStorage.setItem("authToken",token)
         console.log("logged successful:", response.data);
-        // alert("logged successful! Welcome, ");
         navigate('/home')
       }
      

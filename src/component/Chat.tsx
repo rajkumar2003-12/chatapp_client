@@ -11,9 +11,6 @@ interface Message {
   senderId: string;
   content: string;
 }
-// interface Chatprops{
-//   receiverId:number;
-// }
 
   const Chat = () => {
   const location = useLocation();
